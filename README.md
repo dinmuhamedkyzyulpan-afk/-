@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Кенесары хан — Zhandarbek</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Kazakh_carpet_pattern.jpg') repeat fixed;
+      background-size: 500px;
+      color: #222;
+    }
+    header {
+      background: rgba(11, 58, 114, 0.9);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    header h1 { margin: 0; font-size: 32px; }
+    .byline { font-size: 15px; margin-top: 6px; color: #dce4f6; }
+
+    nav {
+      background: rgba(23, 79, 155, 0.95);
+      display: flex;
+      justify-content: center;
+      backdrop-filter: blur(3px);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 20px;
+      display: block;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav a:hover { background: rgba(11, 58, 114, 0.9); }
+
+    .container {
+      max-width: 950px;
+      margin: 30px auto;
+      background: rgba(255,255,255,0.94);
+      padding: 26px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+      border-radius: 10px;
+    }
+    section { margin-bottom: 30px; }
+    h2 { color:#0b3a72; margin-bottom:10px; border-bottom:2px solid #174f9b; padding-bottom:4px; }
+    p { margin: 0 0 12px; line-height:1.7; font-size: 16px; }
+
+    .hero { display:flex; gap:20px; flex-wrap:wrap; }
+    .hero img { max-width:320px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.3); }
+
+    section#gallery img {
+      border-radius:8px;
+      box-shadow:0 6px 16px rgba(0,0,0,0.5);
+    }
+
+    footer {
+      background: rgba(238,238,238,0.95);
+      padding:14px 22px;
+      font-size:14px;
+      color:#333;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      border-top: 3px solid #174f9b;
+    }
+    footer a { color:#0b3a72; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Кенесары Қасымұлы</h1>
+    <div class="byline">Сайт авторы: <strong>Zhandarbek</strong></div>
+  </header>
+
+  <nav>
+    <a href="#bio">Өмірбаяны</a>
+    <a href="#uprising">Көтерілісі</a>
+    <a href="#legacy">Мұрасы</a>
+    <a href="#gallery">Суреттер</a>
+    <a href="#links">Сілтемелер</a>
+  </nav>
+
+  <div class="container">
+    <section id="bio">
+      <h2>Өмірбаяны</h2>
+      <div class="hero">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Stamp_of_Kazakhstan_649-650.jpg" alt="Кенесары хан бейнесі"/>
+        <div>
+          <p>
+            Кенесары Қасымұлы (1802–1847) — Абылай ханның немересі, қазақтың соңғы ханы. Ол өз заманында Ресей империясының 
+            отаршылдық саясатына қарсы күрескен ұлттық батыр ретінде танылды. Қазақ жерінің тәуелсіздігі мен 
+            бірлігін сақтап қалу үшін күресті.
+          </p>
+          <p>
+            1841 жылы үш жүздің өкілдері оны хан етіп сайлады. Осылайша Кенесары бүкіл қазақ халқының тәуелсіздік үшін
+            күресін басқарған тұлғаға айналды.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="uprising">
+      <h2>Көтерілісі</h2>
+      <p>
+        Кенесары Қасымұлы бастаған ұлт-азаттық көтеріліс (1837–1847) — қазақ халқының тарихындағы ірі қозғалыстардың бірі.
+        Ол патша үкіметінің қазақ жерін тартып алуына, бекіністер салуына және салық саясатына қарсы бағытталды.
+      </p>
+      <p>
+        Көтеріліс бүкіл үш жүзді қамтып, он жылға созылды. Бұл қозғалыс тек әскери қимылдармен шектелмей, сонымен қатар
+        қазақ мемлекеттілігін қалпына келтіруге ұмтылды.
+      </p>
+    </section>
+
+    <section id="legacy">
+      <h2>Мұрасы</h2>
+      <p>
+        Кенесары ханның тарихи рөлі Қазақстанда жоғары бағаланады. Оның есімі мектеп оқулықтарында, ғылыми еңбектерде,
+        әдеби шығармаларда жиі аталады. Қазіргі таңда Қазақстанның бірнеше қаласында Кенесары ханға ескерткіштер орнатылған.
+      </p>
+      <p>
+        Оның күресі қазақ халқының бостандығы мен тәуелсіздігі жолындағы батыл қадамдардың символы болып қала береді.
+      </p>
+    </section>
+
+    <section id="gallery">
+      <h2>Суреттер</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Kenesar%C4%B1_monument_in_Astana_2018.jpg" 
+           alt="Астанадағы Кенесары хан ескерткіші" style="max-width:100%; margin-bottom:12px;" />
+      <p><em>Сурет: Астана қаласындағы Кенесары хан ескерткіші.</em></p>
+    </section>
+
+    <section id="links">
+      <h2>Қосымша сілтемелер</h2>
+      <ul>
+        <li><a href="https://kk.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BD%D0%B5%D1%81%D0%B0%D1%80%D1%8B_%D2%9A%D0%B0%D1%81%D1%8B%D0%BC%D2%B1%D0%BB%D1%8B" target="_blank">Кенесары хан — Wikipedia (қазақша)</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Kenesary_Qasymuly" target="_blank">Kenesary Qasymuly — Wikipedia (English)</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <div>Сайт авторы: Zhandarbek</div>
+    <div>Ақпарат көзі: Wikipedia</div>
+  </footer>
+</body>
+</html>
